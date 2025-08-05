@@ -3,19 +3,22 @@ __pycache__/
 *.py[cod]
 *.sqlite3
 
-# Medii virtuale
+# Virtual environments
 .venv/
 venv/
 
 # Cache Pytest
 .pytest_cache/
 
-# Fișiere IDE (PyCharm, VSCode)
+# Generated database files
+*.db
+
+# IDE files (e.g., PyCharm, VSCode)
 .idea/
 .vscode/
 
-# Fișiere sensibile de configurare
+# Sensitive configuration files
 .env
 
-# Fișiere generate automat (de exemplu logs)
+# Automatically generated files
 *.log

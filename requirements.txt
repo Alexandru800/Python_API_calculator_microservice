@@ -6,3 +6,5 @@ flake8
 pytest
 sqlalchemy
 httpx
+prometheus-client
+prometheus-fastapi-instrumentator

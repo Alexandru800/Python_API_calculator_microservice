@@ -7,7 +7,7 @@ WORKDIR /app
 # Copiază requirements.txt și instalează dependențele
 COPY requirements.txt .
 
-RUN python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Copiază întregul cod sursă în container
 COPY . .

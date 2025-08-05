@@ -6,7 +6,9 @@ __pycache__
 .venv
 venv/
 tests/
+tools/
 *.sqlite3
+*.db
 .git
 .gitignore
 .idea
