@@ -13,7 +13,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # 2. Run the service (hot‑reload)
-setx API_KEY=secret_math2000
+setx API_KEY=secret_math2000  # Or create a .env file with API_KEY="api key name you want" if you don't want to use the default name
 uvicorn app.main:app --reload
 
 # 3. Visit the interactive docs
