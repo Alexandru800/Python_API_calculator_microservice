@@ -80,7 +80,7 @@ python -m pytest -q      # uses in‑memory SQLite via override
 
 Caching is provided by **functools.lru_cache**.  
 Metrics via **prometheus-fastapi-instrumentator** (see **/metrics**).  
-Logs are inspectable with python **tools/debug_db.py**.
+Logs are inspectable with **python tools\debug_db.py**.
 
 ---
 
