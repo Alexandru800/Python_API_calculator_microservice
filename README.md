@@ -10,7 +10,7 @@ Each request is logged to a local SQLite database, responses are cached in‑pro
 ```bash
 # 1. Create a virtual‑env & install deps
 python -m venv .venv
-.venv/bin/activate
+.venv\bin\activate
 pip install -r requirements.txt
 
 # 2. Run the service (hot‑reload)
