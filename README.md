@@ -10,7 +10,7 @@ Each request is logged to a local SQLite database, responses are cached in‑pro
 ```bash
 # 1. Create a virtual‑env & install deps
 python -m venv .venv
-.venv\bin\activate
+.venv\bin\Activate
 pip install -r requirements.txt
 
 # 2. Run the service (hot‑reload)
@@ -18,7 +18,7 @@ setx API_KEY=secret_math2000  # Or create a .env file with API_KEY="api_key_name
 uvicorn app.main:app --reload
 
 # 3. Visit the interactive docs
-open http://localhost:8000/docs
+start http://localhost:8000/docs
 ```
 
 ---
