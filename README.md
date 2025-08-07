@@ -18,7 +18,7 @@ setx API_KEY=secret_math2000  # Or create a .env file with API_KEY="api_key_name
 uvicorn app.main:app --reload
 
 # 3. Visit the interactive docs
-start http://localhost:8000/docs
+start http://127.0.0.1:8000/docs
 ```
 
 ---
